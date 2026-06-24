@@ -1,3 +1,26 @@
-2026-06-24 12:14 | Check ENLV before US open
-2026-07-02 21:45 | Review AVXL after the close
-2026-07-08 14:20 | Check BTAI around catalyst window
+2026-06-24 14:40 | 🟢 $TNXP: Presentazione alla BIO 2026 International Convention
+2026-07-01 09:45 | 🟢 $CRDF: Dopo il termine della Fase 2, sono attesi dettagli e strategia per la Fase 3 di onvansertib
+2026-07-01 09:45 | 🟡 $SLDB: A seguito di un processo di allineamento con l'FDA, SLDB pianifica di aggiornare il mercato rispetto al percorso di approvazione accelerata del SGT-003 e di condividere altri dati sull'INSPIRE DUCHENNE
+2026-07-01 09:45 | 🟡 $ALT: Altimmune pianifica di iniziare a breve la Fase 3 PERFORMA del MASH trial, il suo programma di punta. Questo dovrebbe spostare leggermente il prezzo dell'azione verso l'alto
+2026-07-01 09:45 | 🔴 $ALT: Altimmune pianifica di condividere i risultati della Fase 2 RECLAIM del AUD trial, il programma legato alla dipendenza da alcol. Questi dati possono incidere sensibilmente sul prezzo dell'azione
+2026-07-15 09:45 | 🟡 $ALT: Altimmune dovrebbe annunciare a breve l'avvenuto arruolamento del numero necessario di pazienti per iniziare la Fase 2 RESTORE del ALD trial, il programma legato alla gestione delle conseguenze dell'abuso di alcol
+2026-07-01 09:45 | 🔴 $OCGN: Ocugen attende a breve i dati provvisori della Fase 2/3 GARDian trial per OCU410ST, relativo alla malattia di Stargardt
+2026-07-01 09:45 | 🔴 $OCGN: Ocugen ha identificato l'inizio del terzo trimestre come periodo target per inoltrare la richiesta di commercializzazione (BLA) per OCU400, relativo alla retinite pigmentosa
+2026-07-01 09:45 | 🟡 $LCTX: Lineage ha in programma di condividere vari dati all'inizio del terzo trimestre, tra cui: risultati di OPC1, decisione finale su ReSonance, piani clinici per COR1, accelerazione di ILT1 e altri dettagli. Questo dovrebbe finalmente muovere il prezzo verso l'alto
+2026-08-15 09:45 | 🔴 $ONCY: Oncolytics pubblicherà i risultati complessivi della combinazione preclinica pelareorep + RAS inhibitor in autunno. Questi dati sono decisivi per l'azienda e per il prezzo dell'azione. Consigliatissimo tenerla d'occhio e caricare se non è prevista diluizione
+2026-07-01 09:45 | 🟡 $CADL: Candel rivelerà nuovi dati sui biomarcatori del programma relativo al cancro alla prostata all'inizio del terzo trimestre.
+2026-10-01 09:45 | 🔴 $CADL: Candel pianifica la richiesta di commercializzazione (BLA) per aglatimagene, relativo al cancro alla prostata localizzato, per l'inizio del quarto trimestre. CADL attende anche dati complessivi e maturi per linoserpaturev Arm C, relativo al glioma ricorrente
+2026-10-01 09:45 | 🔴 $KYTX: Kyverna progetta di completare la sua richiesta di commercializzazione (BLA) per miv-cell, relativo alla sindrome della persona rigida, entro il quarto trimestre. Insieme a questo annuncio, condividerà con il mercato un anno di dati raccolti sul KYSA-8
+2026-10-14 09:45 | 🔴 $BTAI: La decisione finale (PDUFA) per IGALMI at-home sNDA, è prevista il 14 novembre 2026. Vale la pena di verificare il prezzo attuale dell'azione e prepararsi a un eventuale crescita nel prossimo mese, seguita da potenziale sell-the-news, o valutare la possibilità di uno squeeze post-approvazione
+2026-11-7 09:45 | 🔴 $BTAI: La decisione finale (PDUFA) per IGALMI at-home sNDA, è prevista tra 5 giorni, il 14 novembre 2026
+2026-11-14 09:45 | ⚫ $BTAI: Decisione finale (PDUFA) per IGALMI at-home sNDA
+2026-12-06 09:45 | 🔴 $IBRX: La decisione finale (PDUFA) per la commercializzazione (BLA) di ANKTIVA + BCG, relativo ai disturbi papillari, è prevista il 6 gennaio 2027. Vale la pena di verificare il prezzo attuale dell'azione e prepararsi a un eventuale crescita nel prossimo mese, seguita da potenziale sell-the-news, o valutare la possibilità di uno squeeze post-approvazione
+2026-12-29 09:45 | 🔴 $IBRX: La decisione finale (PDUFA) per la commercializzazione (BLA) di ANKTIVA + BCG, relativo ai disturbi papillari, è prevista tra 7 giorni, il 6 gennaio 2027
+2026-01-06 09:45 | ⚫ $IBRX: Decisione finale (PDUFA) per la commercializzazione (BLA) di ANKTIVA + BCG, relativo ai disturbi papillari
+2026-01-01 09:45 | 🔴 $OCGN: Ocugen attende nel primo trimestre i dati topline Fase 3 per OCU400, relativo alla retinite pigmentosa
+2026-04-01 09:45 | 🔴 $OCGN: Ocugen attende nel secondo trimestre i dati topline Fase 2/3 per OCU410ST, relativo alla malattia di Stargardt
+
+
+
+
+
