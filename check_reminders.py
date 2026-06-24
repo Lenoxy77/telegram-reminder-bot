@@ -2,6 +2,7 @@ import json
 import urllib.request
 import urllib.parse
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 
 def load_env_file(filename=".env"):
@@ -45,8 +46,8 @@ CHAT_ID = env["CHAT_ID"]
 with open("reminders.json", "r", encoding="utf-8") as f:
     reminders = json.load(f)
 
-now = datetime.now().strftime("%Y-%m-%d %H:%M")
-print("Current time seen by Python:", now)
+now = datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d %H:%M")
+print("Current time in Europe/Rome:", now)
 print("Loaded reminders:", reminders)
 
 matched = False
