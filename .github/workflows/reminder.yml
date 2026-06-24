@@ -49,4 +49,3 @@ jobs:
             git commit -m "Mark reminders as sent"
             git push
           fi
-# resync
