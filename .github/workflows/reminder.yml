@@ -30,10 +30,17 @@ jobs:
       - name: Run reminder check
         run: python check_reminders.py
 
+      - name: Ensure sent_reminders.txt exists
+        shell: bash
+        run: |
+          if [ ! -f sent_reminders.txt ]; then
+            touch sent_reminders.txt
+          fi
+
       - name: Commit updated sent_reminders.txt
         shell: bash
         run: |
-          if git diff --quiet sent_reminders.txt; then
+          if git diff --quiet -- sent_reminders.txt; then
             echo "No changes to sent_reminders.txt"
           else
             git config user.name "github-actions[bot]"
