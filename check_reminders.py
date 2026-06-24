@@ -46,13 +46,20 @@ with open("reminders.json", "r", encoding="utf-8") as f:
     reminders = json.load(f)
 
 now = datetime.now().strftime("%Y-%m-%d %H:%M")
-print("Current time:", now)
+print("Current time seen by Python:", now)
+print("Loaded reminders:", reminders)
+
+matched = False
 
 for reminder in reminders:
     print("Checking reminder:", reminder["datetime"], "-", reminder["message"])
 
     if reminder["datetime"] == now:
+        matched = True
         print("Reminder matched. Sending message...")
         send_telegram_message(BOT_TOKEN, CHAT_ID, reminder["message"])
     else:
         print("Not matched.")
+
+if not matched:
+    print("No reminders matched the current time.")
