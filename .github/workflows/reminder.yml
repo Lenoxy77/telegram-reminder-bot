@@ -2,7 +2,7 @@ name: Telegram Reminder Bot
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes (UTC)
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,12 +16,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
+          python-version: '3.13'
 
       - name: Create .env file from GitHub Secrets
+        shell: bash
         run: |
-          echo BOT_TOKEN=${{ secrets.BOT_TOKEN }} > .env
-          echo CHAT_ID=${{ secrets.CHAT_ID }} >> .env
+          echo "BOT_TOKEN=${{ secrets.BOT_TOKEN }}" > .env
+          echo "CHAT_ID=${{ secrets.CHAT_ID }}" >> .env
 
       - name: Run reminder check
         run: python check_reminders.py
