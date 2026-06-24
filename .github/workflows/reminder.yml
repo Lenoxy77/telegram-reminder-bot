@@ -5,6 +5,9 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-reminders:
     runs-on: ubuntu-latest
@@ -26,3 +29,16 @@ jobs:
 
       - name: Run reminder check
         run: python check_reminders.py
+
+      - name: Commit updated sent_reminders.txt
+        shell: bash
+        run: |
+          if git diff --quiet sent_reminders.txt; then
+            echo "No changes to sent_reminders.txt"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sent_reminders.txt
+            git commit -m "Mark reminders as sent"
+            git push
+          fi
