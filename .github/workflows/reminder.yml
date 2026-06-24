@@ -25,4 +25,3 @@ jobs:
 
       - name: Run reminder check
         run: python check_reminders.py
-``
