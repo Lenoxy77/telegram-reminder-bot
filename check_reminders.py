@@ -5,7 +5,7 @@ from zoneinfo import ZoneInfo
 
 
 TIMEZONE = ZoneInfo("Europe/Rome")
-TOLERANCE_MINUTES = 5
+TOLERANCE_MINUTES = 15
 
 
 def load_env_file(filename=".env"):
